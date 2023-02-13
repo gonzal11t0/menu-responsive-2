@@ -1,0 +1,45 @@
+@media screen and (max-width:650px) {
+    .menu-horizontal  li  a{
+        display: block;
+        padding: 22px 6px;
+        color: white;
+        text-decoration: none;
+    }
+}
+@media screen and (max-width:400px) {
+    nav{
+        font-size:0.8rem;
+    }
+    .menu-horizontal  li  a{
+        display: block;
+        padding: 22px 4px;
+        color: white;
+        text-decoration: none;
+    }
+    .menu-vertical{
+        width:80px;
+    }
+    .menu-vertical li a{
+        padding: 10px 1px 10px 10px;
+    }
+}
+@media screen and (min-width:184px) and (max-width:290px) {
+    #nav{
+        display: none;
+    } 
+    #nav-2{
+        display: block;
+    }
+    .menu-horizontal{
+        display:grid;
+        grid-template-columns: auto auto auto;
+    }
+    .menu-horizontal  li  a{
+        display: block;
+        padding:22px 0px;
+    }
+    .menu-vertical  li  a{
+        display: block;
+        padding:20px 1px;
+    }
+}
